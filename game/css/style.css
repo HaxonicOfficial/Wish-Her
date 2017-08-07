@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=Londrina+Solid|Nunito:400,300);
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #323232;
+}
+
+a {
+  color: #53BDFF;
+  text-decoration: none;
+  font-size: 14px;
+}
+a:hover {
+  color: #86d1ff;
+}
+
+.hangman {
+  font-family: "Londrina Solid", cursive;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #53BDFF;
+  font-weight: 300;
+}
+
+p {
+  margin-bottom: 20px;
+  color: gray;
+  line-height: 1.3;
+}
+
+@keyframes letteranim {
+  50% {
+    transform: translateY(-5px) scale(1.05);
+  }
+}
+.letter {
+  display: inline-block;
+  color: transparent;
+  border-bottom: 5px solid #53BDFF;
+  margin: 0 10px;
+  font-size: 50px;
+  padding: 10px;
+  transition: .5s;
+  text-transform: uppercase;
+}
+
+.word {
+  display: block;
+  white-space: nowrap;
+}
+
+.correct {
+  color: #53BDFF;
+  text-shadow: 1px 2px 0 #20a9ff;
+  animation: letteranim .3s ease;
+}
+
+.guessForm {
+  margin: 20px auto 0;
+}
+.guessForm input, .guessForm .guessButton {
+  font-family: "Londrina Solid", cursive;
+}
+.guessForm input[type="text"] {
+  outline: none;
+  padding: 10px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  border: 1px solid #aaa;
+  color: gray;
+}
+.guessForm .guessButton {
+  border: none;
+  font-size: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #53BDFF;
+  color: white;
+  transition: .3s;
+  margin: 10px 0;
+  text-shadow: 1px 2px 0 #20a9ff;
+}
+.guessForm .guessButton:hover {
+  background: #20a9ff;
+}
+
+.wrongLetters {
+  font-size: 20px;
+}
+.wrongLetters p {
+  margin-bottom: 10px;
+}
+.wrongLetters li {
+  display: inline-block;
+  font-size: 40px;
+  background: #ff4d4d;
+  text-shadow: 1px 2px 0 red;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+  margin-right: 10px;
+  animation: letteranim .3s ease;
+}
+
+.message {
+  display: none;
+  padding: 20px;
+  position: absolute;
+  top: 110px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  /*   height: 100%; */
+  background: #0091ec;
+  z-index: 12402402;
+}
+.message h1 {
+  display: none;
+  color: white;
+  text-shadow: 1px 2px 0 #ccc;
+}
+.message .highlight {
+  color: yellow;
+  text-transform: capitalize;
+}
+.message .text {
+  color: white;
+  font-size: 30px;
+  display: none;
+}
+.message .text p {
+  color: white;
+}
+.message .text .highlight {
+  font-size: 40px;
+}
+.message .muted {
+  margin: 20px auto;
+  color: #86d1ff;
+}
+
+.button {
+  display: none;
+  margin: 10px 0;
+  border: none;
+  font-size: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #34cd39;
+  color: white;
+  transition: .3s;
+  text-shadow: 1px 2px 0 #2EB933;
+  font-family: "Londrina Solid", cursive;
+}
+.button:hover {
+  background: #71dc75;
+}
