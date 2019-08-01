@@ -1,8 +1,6 @@
 # Wish-Her
 a demo website, which can be used to which someone special on special occasions like birthday, anniversaries etc
 
-NOTE - GitHub server doesnt allow Javascript to load directly, So go to the right end of URL and click on "Load-Unsafe-Scripts".
-
 # Directions
 This is a open source webpage collection. You can fork it and make changes as per your need.
 Please don't use it for commercial purposes.
@@ -11,6 +9,8 @@ Finally, This project is live at https://haxonicofficial.github.io/Wish-Her/
 
 # Fork it  |  Star it  
 Re-use it but please give credits :)
+
+# NOTE - GitHub server doesnt allow Javascript to load directly, So go to the right end of URL and click on "Load-Unsafe-Scripts".
 
 
 # Follow me  
