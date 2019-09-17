@@ -11,7 +11,7 @@ Finally, This project is live at https://haxonicofficial.github.io/Wish-Her/
 Re-use it but please give credits :)
 
 # NOTE - 
-GitHub server doesnt allow Javascript to load directly, So go to the right end of URL and click on "Load-Unsafe-Scripts".
+GitHub server doesnt allow JavaScript to load directly, So go to the right end of URL and click on "Load-Unsafe-Scripts".
 
 
 # Follow me  
