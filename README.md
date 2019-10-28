@@ -10,6 +10,9 @@ Finally, This project is live at https://haxonicofficial.github.io/Wish-Her/
 # Fork it  |  Star it  
 Re-use it but please give credits :)
 
+# Contribute
+You can help me to modify this project by mapping custom-data-entries to a Restful-API like data.json. Make a new branch and perform pull-request. If it will be worthy, i'll add it to master-branch
+
 # NOTE - 
 GitHub server doesnt allow JavaScript to load directly, So go to the right end of URL and click on "Load-Unsafe-Scripts".
 
