@@ -1,5 +1,5 @@
 # Wish-Her
-a demo website, which can be used to which someone special on special occasions like birthday, anniversaries etc
+A demo website, which can be used to which someone special on special occasions like birthday, anniversaries etc
 
 # Directions
 This is a open source webpage collection. You can fork it and make changes as per your need.
@@ -18,7 +18,7 @@ GitHub server doesnt allow JavaScript to load directly, So go to the right end o
 
 
 # Follow me  
-LimkedIn  - https://www.linkedin.com/in/haxonic/
+LinkedIn  - https://www.linkedin.com/in/haxonic/
 
 GitHub    - https://github.com/HaxonicOfficial
 
